@@ -6,7 +6,6 @@ module "keyvlt" {
   rg_name           = "kkrg-infra"
 
 }
-
 # creating 
 module "keyscrtuser" {
   depends_on    = [module.keyvlt, module.resource_group]
