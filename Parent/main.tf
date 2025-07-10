@@ -6,7 +6,7 @@ module "keyvlt" {
   rg_name           = "kkrg-infra"
 
 }
-# creating 
+# creating 123
 module "keyscrtuser" {
   depends_on    = [module.keyvlt, module.resource_group]
   source        = "../Child/azure_keysceret"
